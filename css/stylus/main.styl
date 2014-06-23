@@ -1,0 +1,78 @@
+/*
+	autor:			@khrizenriquez
+	descripción:	s
+
+	otras referencias: para obtener detalle de lo que se puede hacer con svg y html en la
+						actualidad y los diferentes navegadores web esta "can i use( http://caniuse.com/#search=svg )"
+*/
+//		Área de importación
+@import url( "http://fonts.googleapis.com/css?family=Open+Sans:300" )
+@import normalize
+
+//		Selectores generales
+body
+	background #2c3e50
+	font-family 'Open Sans', sans-serif
+	font-size 16px
+	text-align center
+h1
+	color #ecf0f1
+	font-size 2.5em
+footer
+	padding 1em
+	background #2c3e50
+	label
+		color white
+		a
+			color white
+			text-decoration none
+			&:hover
+				text-decoration underline
+			&:visited, &:linked
+				color white
+//		Selectores por id
+//		Selectores por clases
+.mapaGuate
+	margin 0 auto
+	width 95%
+	.deptoGuate, .infoDepto
+		display inline-block
+		vertical-align top
+	.deptoGuate
+		width 59%
+		svg
+			path
+				transition all 0.3s ease
+				cursor pointer
+				fill #1abc9c
+				&:hover
+					transition all 0.3s ease
+					fill #e67e22
+	.infoDepto
+		background #34495e
+		border-radius 0em 0em .5em .5em
+		color white
+		transition all 1s linear
+		width 39%
+		a
+			color white
+			text-decoration none
+			&:hover
+				text-decoration underline
+			&:visited, &:linked
+				color white
+		p
+			padding .5em
+			text-align left
+			transition all 0.5s linear
+//		media queries
+@media only screen and (max-width: 870px)
+	.mapaGuate
+		margin 0 auto
+		width 100%
+		.deptoGuate, .infoDepto
+			display block
+			width 98%
+		.deptoGuate
+		.infoDepto
+			font-size 1.2em
