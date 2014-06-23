@@ -1,4 +1,10 @@
+/*
+	autor:			@khrizenriquez
+	descripción:	Mapa de Guatemala de manera vectorial
 
+	otras referencias: para obtener detalle de lo que se puede hacer con svg y html en la
+						actualidad y los diferentes navegadores web esta "can i use( http://caniuse.com/#search=svg )"
+*/
 //	En este objeto guardo los datos de los departamentos, la información la obtuve de la wiki ( http://es.wikipedia.org/wiki/Departamentos_de_Guatemala )
 var datosDeptos = {
 	jutiapa: [{
