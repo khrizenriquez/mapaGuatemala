@@ -12,4 +12,4 @@ La información de los departamentos la obtuve de la Wiki http://es.wikipedia.or
 
 
 
-[Repositorio github](https://github.com/khrizenriquez/mapaGuatemala)
+[Chris Enríquez](https://twitter.com/khrizenriquez)
